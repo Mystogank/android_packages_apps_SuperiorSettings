@@ -41,7 +41,7 @@
         android:title="@string/aggressive_battery_title"
         android:fragment="com.superior.settings.fragments.AggressiveBattery" />
 		
-     <Preference
+    <Preference
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
         android:fragment="com.superior.settings.ScreenStateToggles" />
@@ -76,4 +76,13 @@
         android:summary="@string/volume_panel_on_left_summary"
         android:defaultValue="false" />
 
+    <!-- Advanced Controls -->
+    <Preference
+        android:key="advanced_controls"
+        android:persistent="false"
+        android:title="@string/advanced_controls_title">
+    <intent android:action="android.intent.action.MAIN"
+        android:targetPackage="com.thht.settings.device"
+        android:targetClass="com.thht.settings.device.DeviceSettings"/>
+    </Preference>
 </PreferenceScreen>

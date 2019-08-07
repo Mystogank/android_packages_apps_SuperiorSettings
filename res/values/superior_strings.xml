@@ -970,4 +970,6 @@
     <string name="use_old_mobiletype_title">Use old mobile type style</string>
     <string name="use_old_mobiletype_summary">Merge signal and type icons</string>
 
+    <!-- Advanced Controls -->
+    <string name="advanced_controls_title">Advanced Controls</string>
 </resources>
